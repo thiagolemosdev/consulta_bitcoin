@@ -16,8 +16,10 @@ function capturarBitcoin() {
 }
 
 function atualizaBitcoin(bitcoin) {
+  console.log("teste");
   bitcoin = bitcoin.toLocaleString("pt-BR");
   const span = document.createElement("h3");
   span.innerText = `R$ ${bitcoin}`;
+  html.innerHTML = `<div> </div>`;
   html.appendChild(span);
 }
