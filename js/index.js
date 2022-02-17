@@ -3,7 +3,7 @@ let html = document.querySelector("[data-bitcoin]");
 capturarBitcoin();
 setInterval(() => {
   capturarBitcoin();
-}, 30000);
+}, 1000);
 
 function capturarBitcoin() {
   fetch("https://blockchain.info/ticker")
@@ -18,8 +18,8 @@ function capturarBitcoin() {
 function atualizaBitcoin(bitcoin) {
   console.log("teste");
   bitcoin = bitcoin.toLocaleString("pt-BR");
-  const span = document.createElement("h3");
-  span.innerText = `R$ ${bitcoin}`;
+  const h3 = document.createElement("h3");
+  h3.innerText = `R$ ${bitcoin}`;
   html.innerHTML = `<div> </div>`;
-  html.appendChild(span);
+  html.appendChild(h3);
 }
