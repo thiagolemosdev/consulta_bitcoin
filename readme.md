@@ -6,7 +6,7 @@
 
 ## Desafio proposto pelo curso de Javascript da Origamid
 
-<p>Construir uma aplicação que consome a API com valor do bitcoin e retorne o valor atual na cotaçao do real e atualize esse valor a cada 30 segundos utilizando FETCH API</p>
+<p>Construir uma aplicação que consome a API com valor do bitcoin e retorne o valor atual na cotaçao do real e atualize esse valor a cada 30 segundos utilizando FETCH API e SetInterval</p>
 
 ## Tecnologias Usadas
 
